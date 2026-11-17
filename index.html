@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinyas G M — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Pure CSS Reading Progress Bar -->
+  <div class="reading-progress-bar" aria-hidden="true"></div>
+
+  <!---------------------------------------------NAVIGATION --------------------------------------------->
+  <nav class="navbar">
+    <a class="nav-logo" href="#">VINYAS G M</a>
+
+    <!-- CSS-only hamburger toggle (no JS) -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-cb" aria-label="Toggle navigation">
+    <label for="nav-toggle" class="nav-hamburger" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="#about" data-text="About"><span>About</span></a></li>
+      <li><a href="#education" data-text="Education"><span>Education</span></a></li>
+      <li><a href="#work" data-text="Work"><span>Work</span></a></li>
+      <li><a href="#details" data-text="Details"><span>Details</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+
+        <!-- Left: headline -->
+        <div class="hero-text">
+          <p class="line-1">Half <span class="smudge">Techie.</span></p>
+          <p class="line-2">Half <span class="smudge">Strategist.</span></p>
+          <div class="line-gap" aria-hidden="true"></div>
+          <p class="line-3">Full <em class="smudge">Obsession</em></p>
+          <p class="line-3">with <span class="smudge">Building</span></p>
+        </div>
+
+        <!-- Right: photo -->
+        <div class="hero-photo">
+          <img src="photo.png" alt="Vinyas G M" class="photo-img">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section class="about-section" id="about">
+      
+      <!-- Unified Card & Philosophy Aside Row -->
+      <div class="about-card-wrapper" id="about-card-wrapper">
+
+        <!-- Unified Card: Hello + Behind The Screen -->
+        <article class="about-unified-card" id="about-card">
+          <div class="card-intro-block">
+            <h2 class="card-headline">Hi, I am <span class="highlight-red">Vinyas G M</span></h2>
+          </div>
+
+          <blockquote class="card-quote">
+            &ldquo;Before you fly through the credentials, projects, and timelines ahead, here is the human behind the screen: I'm someone obsessed with how things work and how to make them better. I love problem solving, a builder by instinct, an experimenter by habit, and a firm believer that the best way to understand the future is to be at the edge of building it.&rdquo;
+          </blockquote>
+        </article>
+
+        <!-- Philosophy alongside the Card (word per line vertical stack) -->
+        <aside class="philosophy-aside">
+          <span class="philosophy-label">Philosophy</span>
+          <p class="philosophy-text">
+            <span>Curiosity-driven</span>
+            <span>execution</span>
+            <span>grounded</span>
+            <span>in</span>
+            <span>technical</span>
+            <span>rigor</span>
+            <span>and</span>
+            <span>real-world</span>
+            <span>impact.</span>
+          </p>
+        </aside>
+
+      </div>
+
+      <!-- Reading Container (Ethos stretched across screen) -->
+      <div class="reading-wrapper">
+        <article class="reading-container">
+
+          <!-- Asymmetric Margins & Tight Headings -->
+          <h3 class="editorial-heading">My Approach & Ethos</h3>
+
+          <!-- Opening paragraph with Drop Cap -->
+          <p class="editorial-p drop-cap-p">
+            Great things are rarely built through speculation alone. They emerge through persistent hands-on experimentation, deep empathy for end users, and the discipline to iterate rapidly when initial hypotheses meet real friction.
+          </p>
+
+          <p class="editorial-p">
+            Whether architecting resilient software systems, optimizing technical workflows, or leading multidisciplinary projects, my focus remains constant: delivering tangible, high-leverage outcomes.
+          </p>
+
+        </article>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════ EDUCATION ═══════════════ -->
+    <section class="education-section" id="education">
+      <div class="education-inner">
+        <!-- Title at top center -->
+        <header class="section-header education-header">
+          <div class="section-header-titles">
+            <h2 class="section-title">Education</h2>
+          </div>
+        </header>
+
+        <!-- School & PU thin cards — centered, constrained width -->
+        <div class="education-grid-small">
+          <!-- Box 1: 10th CBSE -->
+          <article class="education-card education-card--small">
+            <div class="education-card-top">
+              <span class="education-period">2022</span>
+              <span class="education-badge">CBSE 10th</span>
+            </div>
+            <h3 class="education-inst-name">St Joseph's Central School</h3>
+            <p class="education-location">Yelwal, Mysore</p>
+          </article>
+
+          <!-- Box 2: 12th KSEAB -->
+          <article class="education-card education-card--small">
+            <div class="education-card-top">
+              <span class="education-period">2024</span>
+              <span class="education-badge">KSEAB 12th</span>
+            </div>
+            <h3 class="education-inst-name">MES PU College</h3>
+            <p class="education-location">Malleswaram, Bangalore</p>
+          </article>
+        </div>
+
+        <!-- 3-column body: Left certs | Degree cards | Right placeholder -->
+        <div class="education-body">
+
+          <!-- LEFT: NPTEL Certification Cards stacked -->
+          <aside class="education-certs-col education-certs-col--left" aria-label="NPTEL Certifications">
+
+            <article class="cert-card" id="cert-card-ml">
+              <div class="cert-card-badge-row">
+                <span class="cert-pill">NPTEL</span>
+                <span class="cert-short-tag">NPTEL ML Math</span>
+              </div>
+              <h4 class="cert-card-title">NPTEL &mdash; Essential Mathematics for Machine Learning</h4>
+              <p class="cert-card-desc">Academic course covering linear algebra, multivariate calculus, optimization, and Bayesian inference.</p>
+            </article>
+
+            <article class="cert-card" id="cert-card-biz">
+              <div class="cert-card-badge-row">
+                <span class="cert-pill">NPTEL</span>
+                <span class="cert-short-tag">NPTEL Biz</span>
+              </div>
+              <h4 class="cert-card-title">NPTEL &mdash; Innovation, Business Models &amp; Entrepreneurship</h4>
+              <p class="cert-card-desc">Structured program on venture creation, business model canvas, market validation, and commercial execution.</p>
+            </article>
+
+          </aside>
+
+          <!-- CENTER: Degree Cards -->
+          <div class="education-degrees-col">
+
+            <!-- Big Box 1: BE in CSE (Interactive Flip Trigger) -->
+            <article class="education-card education-card--big education-card--cs-trigger"
+                     id="cs-degree-card-trigger"
+                     role="button"
+                     tabindex="0"
+                     aria-haspopup="dialog"
+                     aria-expanded="false"
+                     aria-controls="degree-modal"
+                     aria-label="Click to flip and inspect BE in Computer Science & Engineering curriculum"
+                     data-degree-trigger="cse">
+              <div class="education-card-top">
+                <span class="education-period">2024 &mdash; 2028</span>
+                <div class="education-badge-group">
+                  <span class="education-badge">Undergraduate</span>
+                  <span class="education-badge education-badge--interactive" aria-hidden="true">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <polyline points="9 21 3 21 3 15"></polyline>
+                      <line x1="21" y1="3" x2="14" y2="10"></line>
+                      <line x1="3" y1="21" x2="10" y2="14"></line>
+                    </svg>
+                    Flip to Expand
+                  </span>
+                </div>
+              </div>
+              <h3 class="education-degree">BE in CSE</h3>
+              <p class="education-institution">BMSIT Bangalore</p>
+              <p class="education-desc">
+                Focusing on algorithms, system architecture, distributed computing, and hands-on software engineering.
+              </p>
+            </article>
+
+            <!-- Big Box 2: BBA in DBE -->
+            <article class="education-card education-card--big">
+              <div class="education-card-top">
+                <span class="education-period">2026 &mdash;</span>
+                <span class="education-badge">Undergraduate</span>
+              </div>
+              <h3 class="education-degree">BBA in DBE</h3>
+              <p class="education-institution">IIM Bangalore</p>
+              <p class="education-desc">
+                Specializing in digital business models, product strategy, data-driven decision making, and entrepreneurial leadership.
+              </p>
+            </article>
+
+          </div>
+
+          <!-- RIGHT: Placeholder for future certifications -->
+          <aside class="education-certs-col education-certs-col--right" aria-label="Future Certifications">
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CS Degree Curriculum 3D Flip & Expansion Modal Overlay -->
+    <div class="degree-modal-overlay" id="degree-modal" role="dialog" aria-modal="true" aria-labelledby="cs-modal-title" aria-hidden="true" data-degree-modal="cse">
+      <div class="degree-modal-scene">
+        <div class="degree-modal-flipper" id="cs-degree-modal-flipper">
+
+          <!-- Front Face (Summary / Preview) -->
+          <div class="degree-modal-face degree-modal-face--front" aria-hidden="true">
+            <div class="education-card-top">
+              <span class="education-period">2024 &mdash; 2028</span>
+              <span class="education-badge">Undergraduate</span>
+            </div>
+            <h3 class="education-degree">BE in CSE</h3>
+            <p class="education-institution">BMSIT Bangalore &bull; Visvesvaraya Technological University</p>
+            <p class="education-desc">
+              Focusing on algorithms, system architecture, distributed computing, and hands-on software engineering.
+            </p>
+          </div>
+
+          <!-- Back Face (~70% Expanded Viewport Curriculum View) -->
+          <div class="degree-modal-face degree-modal-face--back">
+
+            <!-- Sticky Header with Return Button -->
+            <header class="degree-modal-header">
+              <div class="degree-modal-header-meta">
+                <span class="degree-modal-eyebrow">Thematic Curriculum Specification</span>
+                <h2 class="degree-modal-title" id="cs-modal-title">BE in Computer Science &amp; Engineering</h2>
+                <p class="degree-modal-subtitle">BMS Institute of Technology &amp; Management &bull; VTU Belagavi &bull; 2024&ndash;2028</p>
+              </div>
+              <button type="button" class="degree-modal-close" id="cs-degree-modal-close" aria-label="Close CS degree curriculum and return" data-close-degree>
+                <span class="close-label">&larr; Return to Education</span>
+                <span class="close-icon" aria-hidden="true">&times;</span>
+              </button>
+            </header>
+
+            <!-- Scrollable Curriculum Content Body -->
+            <div class="degree-modal-body" id="cs-degree-modal-body" tabindex="0">
+
+              <!-- Hero Overview Banner -->
+              <div class="degree-hero-banner">
+                <div class="degree-eyebrow">ACADEMIC RIGOR &bull; BMSIT BANGALORE &bull; VTU BELAGAVI &bull; 2024&ndash;2028</div>
+                <h3 class="degree-overview-title">Rigorous Systems &amp; Theoretical Computer Science</h3>
+                <p class="degree-lead-desc">
+                  Rigorous foundation in mathematical computation, low-latency systems architecture, memory models, and artificial intelligence. Synthesized across five cohesive thematic pillars and an explicit multi-paradigm programming progression.
+                </p>
+                <div class="degree-hero-chips">
+                  <span class="degree-chip">5 Thematic Pillars</span>
+                  <span class="degree-chip">4-Stage Language Progression</span>
+                  <span class="degree-chip">VTU 5th-Sem Rigor (TOC, CN, SEPM, RMIPR, AI)</span>
+                  <span class="degree-chip">Autonomous AI &amp; Quant Horizons</span>
+                  <span class="degree-chip">Zero Semester Partitioning</span>
+                </div>
+              </div>
+
+              <!-- SECTION: Programming Language Progression Pipeline -->
+              <section class="degree-curriculum-section">
+                <div class="pillar-header">
+                  <span class="pillar-badge">LANGUAGE TRACK</span>
+                  <h3 class="pillar-title">Programming Language Progression Pipeline</h3>
+                  <p class="pillar-desc">
+                    An intentional cognitive progression across four computing paradigms: from hardware-adjacent memory discipline in C to rapid mathematical data modeling in Python, zero-cost high-performance systems in C++, and horizontally scalable enterprise architectures in Java.
+                  </p>
+                </div>
+                <div class="progression-grid">
+                  <!-- Step 1: C -->
+                  <div class="progression-card">
+                    <div class="prog-step-num">01</div>
+                    <div class="prog-tag">C &bull; PROCEDURAL &amp; MEMORY</div>
+                    <h4 class="card-title">Hardware-Adjacent Memory Execution</h4>
+                    <p class="prog-summary">Process memory layout (stack/heap/BSS), pointer arithmetic, dynamic allocation ownership (<code>malloc</code>/<code>free</code>), struct memory alignment, and bitwise manipulation.</p>
+                    <div class="prog-subbadge">Strength: Bare-metal hardware empathy &amp; zero runtime overhead</div>
+                  </div>
+                  <!-- Step 2: Python -->
+                  <div class="progression-card">
+                    <div class="prog-step-num">02</div>
+                    <div class="prog-tag">PYTHON &bull; DATA &amp; PROTOTYPING</div>
+                    <h4 class="card-title">Dynamic Typing &amp; Mathematical Modeling</h4>
+                    <p class="prog-summary">Duck typing, list/dict comprehensions, generator pipelines, vectorized SIMD numerical computing with NumPy, and high-speed tabular data processing with Pandas.</p>
+                    <div class="prog-subbadge">Strength: Rapid algorithmic prototyping &amp; scientific iteration</div>
+                  </div>
+                  <!-- Step 3: C++ -->
+                  <div class="progression-card">
+                    <div class="prog-step-num">03</div>
+                    <div class="prog-tag">C++ &bull; SYSTEMS &amp; PERFORMANCE</div>
+                    <h4 class="card-title">Zero-Cost Systems &amp; Modern OOP</h4>
+                    <p class="prog-summary">Deterministic RAII, move semantics (<code>&amp;&amp;</code>), smart pointer lifetimes, generic template metaprogramming, STL data structures, and cache-conscious low-latency engineering.</p>
+                    <div class="prog-subbadge">Strength: Zero-cost abstractions &amp; microsecond deterministic latency</div>
+                  </div>
+                  <!-- Step 4: Java -->
+                  <div class="progression-card">
+                    <div class="prog-step-num">04</div>
+                    <div class="prog-tag">JAVA &bull; ENTERPRISE RUNTIME</div>
+                    <h4 class="card-title">Managed Runtime &amp; Scalable Architecture</h4>
+                    <p class="prog-summary">JVM bytecode execution, HotSpot JIT compilation, G1GC memory collection, rigorous type contracts, <code>java.util.concurrent</code> thread pools, and distributed microservices.</p>
+                    <div class="prog-subbadge">Strength: Resilient, horizontally scalable enterprise concurrency</div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- SECTION: Pillar 1 — Mathematics & Theoretical Foundations -->
+              <section class="degree-curriculum-section">
+                <div class="pillar-header">
+                  <span class="pillar-badge">PILLAR 01</span>
+                  <h3 class="pillar-title">Mathematics &amp; Theoretical Foundations</h3>
+                  <p class="pillar-desc">
+                    Rigorous mathematical disciplines and theoretical computer science frameworks underpinning algorithm analysis, 3D graphics kinematics, and formal computation models.
+                  </p>
+                </div>
+                <div class="degree-pillar-grid">
+                  <!-- Card 1.1: Advanced Engineering Mathematics -->
+                  <div class="degree-subcard">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h4 class="card-title">Mathematical Systems &amp; Transform Calculus</h4>
+                    <ul class="card-list">
+                      <li><strong>Multivariable Calculus:</strong> Partial derivatives, Lagrange multipliers, vector fields (&nabla;f, &nabla;&middot;F, &nabla;&times;F), Green's, Stokes', and Gauss divergence theorems.</li>
+                      <li><strong>Linear Algebra:</strong> Vector spaces, Rank-Nullity theorem, LU and QR decompositions, Gram-Schmidt orthogonalization, eigenvalues, SVD, and PCA dimensionality reduction.</li>
+                      <li><strong>Differential Equations:</strong> Higher-order ODEs, variation of parameters, Laplace transforms, and continuous physical systems modeling.</li>
+                      <li><strong>Numerical Methods:</strong> Newton-Raphson root finding, Lagrange interpolation, Runge-Kutta 4th Order (RK4) integration, and floating-point error bounds.</li>
+                    </ul>
+                  </div>
+                  <!-- Card 1.2: Theory of Computation (5th Sem Core Module) -->
+                  <div class="degree-subcard highlight-card">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <div class="card-module-tag">5TH SEM CORE MODULE</div>
+                    <h4 class="card-title">Theory of Computation (TOC)</h4>
+                    <ul class="card-list">
+                      <li><strong>Finite Automata:</strong> DFA, NFA, subset construction equivalence, Arden's theorem, state minimization (Hopcroft/table-filling), and Pumping Lemma for Regular Languages.</li>
+                      <li><strong>Context-Free Grammars &amp; PDAs:</strong> Chomsky Normal Form (CNF), Greibach Normal Form (GNF), Pushdown Automata (final state vs empty stack equivalence), and CFL Pumping Lemma.</li>
+                      <li><strong>Turing Machines:</strong> 7-tuple TM model, multi-tape equivalence, Universal Turing Machines (UTM), Church-Turing thesis, and Turing-decidable vs recognizable languages.</li>
+                      <li><strong>Undecidability:</strong> Halting Problem diagonalization proof (A<sub>TM</sub>), mapping reducibility, and Rice's Theorem.</li>
+                      <li><strong>Complexity Classes:</strong> P, NP, Cook-Levin theorem, polynomial-time reductions, and NP-completeness proofs (3-SAT, Vertex Cover, TSP).</li>
+                    </ul>
+                  </div>
+                  <!-- Card 1.3: Physical Sciences, Mechanical Kinematics & Cyber Security -->
+                  <div class="degree-subcard">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h4 class="card-title">Applied Sciences &amp; Security Foundations</h4>
+                    <ul class="card-list">
+                      <li><strong>Physical Sciences:</strong> Semiconductor physics, Fermi levels, P-N junctions, quantum tunneling breakdown in sub-3nm MOSFETs, and photonics.</li>
+                      <li><strong>Mechanical Systems:</strong> High-density thermal dissipation, active/passive cooling, forward/inverse robot kinematics, and mechatronic PWM actuation.</li>
+                      <li><strong>Cyber Security Principles:</strong> Symmetric (AES) &amp; asymmetric (RSA/ECC) cryptography, PKI, X.509, SHA-256 digests, and STRIDE threat modeling.</li>
+                      <li><strong>System Defense:</strong> OWASP Top 10 mitigation, memory corruption prevention (buffer overflow/ROP), and zero-trust architecture.</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- SECTION: Pillar 2 — Core Systems & Architecture -->
+              <section class="degree-curriculum-section">
+                <div class="pillar-header">
+                  <span class="pillar-badge">PILLAR 02</span>
+                  <h3 class="pillar-title">Core Systems &amp; Architecture</h3>
+                  <p class="pillar-desc">
+                    Low-level execution models, memory management, operating system kernels, distributed networks, relational databases, and algorithmic complexity.
+                  </p>
+                </div>
+                <div class="degree-pillar-grid">
+                  <!-- Card 2.1: DSA & Algorithm Design -->
+                  <div class="degree-subcard">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <h4 class="card-title">Data Structures &amp; Algorithm Design (DSA/DAA)</h4>
+                    <ul class="card-list">
+                      <li><strong>Non-Linear Structures:</strong> Self-balancing AVL trees, Red-Black trees, B+ tree disk indexes, binary heaps, collision-resilient hash tables, and Disjoint Set Union (DSU).</li>
+                      <li><strong>Algorithmic Paradigms:</strong> Divide-and-conquer, greedy optimization, dynamic programming bottom-up tabulation, branch-and-bound state exploration.</li>
+                      <li><strong>Graph Traversal:</strong> Dijkstra's shortest paths, Bellman-Ford negative edge relaxation, Floyd-Warshall, and Tarjan's strongly connected components.</li>
+                      <li><strong>Asymptotic Rigor:</strong> Recurrence relations, Master Theorem analysis, and NP-hard approximation ratios.</li>
+                    </ul>
+                  </div>
+                  <!-- Card 2.2: Computer Networks (5th Sem Core Module) -->
+                  <div class="degree-subcard highlight-card">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    </div>
+                    <div class="card-module-tag">5TH SEM CORE MODULE</div>
+                    <h4 class="card-title">Computer Networks (CN)</h4>
+                    <ul class="card-list">
+                      <li><strong>Protocol Architectures:</strong> ISO/OSI 7-layer &amp; TCP/IP protocol stacks, framing, CRC error detection, and CSMA/CD Ethernet collision backoff.</li>
+                      <li><strong>Network Layer:</strong> IPv4 CIDR subnetting, VLSM, NAT traversal, IPv6 tunneling, and routing protocols: Distance Vector (RIP), Link State (OSPF), and BGP-4 path vector routing.</li>
+                      <li><strong>Transport Layer:</strong> TCP 3-way handshake, sliding window flow control (<code>rwnd</code>), and congestion algorithms: AIMD, Slow Start, Fast Retransmit, Cubic, and BBR.</li>
+                      <li><strong>Application &amp; Modern Web:</strong> DNS hierarchical resolution, HTTP/1.1 pipelining, HTTP/2 multiplexing, HTTP/3 over QUIC, WebSockets, and TLS 1.3 handshakes.</li>
+                      <li><strong>Network Infrastructure:</strong> IPSec (AH/ESP/IKE), stateful firewalls, DDoS mitigation, and Software-Defined Networking (SDN).</li>
+                    </ul>
+                  </div>
+                  <!-- Card 2.3: Operating Systems, DBMS & Embedded Systems -->
+                  <div class="degree-subcard">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                    </div>
+                    <h4 class="card-title">Operating Systems, DBMS &amp; Embedded Systems</h4>
+                    <ul class="card-list">
+                      <li><strong>Operating Systems:</strong> Kernel context switching, POSIX pthreads, CPU scheduling (MLFQ), Peterson's algorithm, semaphores, Banker's deadlock avoidance, virtual memory demand paging, TLB caching, and UNIX inode file systems.</li>
+                      <li><strong>Database Systems (DBMS):</strong> Relational algebra, SQL window functions, schema normalization through BCNF, ACID guarantees, Two-Phase Locking (2PL), MVCC concurrency, and B+ tree indexing.</li>
+                      <li><strong>ARM &amp; Embedded Systems:</strong> ARM Cortex-M programmer's model, NVIC interrupt priority nesting, register-level GPIO/PWM, SPI/I2C/UART bus protocols, and FreeRTOS multitasking.</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- SECTION: Pillar 4 — Software Engineering, Project Management & Research Rigor -->
+              <section class="degree-curriculum-section">
+                <div class="pillar-header">
+                  <span class="pillar-badge">PILLAR 04</span>
+                  <h3 class="pillar-title">Software Engineering, Project Management &amp; Research Rigor</h3>
+                  <p class="pillar-desc">
+                    Bridging technical code authoring with industrial engineering methodologies, architectural design patterns, automated quality verification, and academic research synthesis.
+                  </p>
+                </div>
+                <div class="degree-pillar-grid">
+                  <!-- Card 4.1: SEPM (5th Sem Core Module) -->
+                  <div class="degree-subcard highlight-card">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <div class="card-module-tag">5TH SEM CORE MODULE</div>
+                    <h4 class="card-title">Software Engineering &amp; Project Management (SEPM)</h4>
+                    <ul class="card-list">
+                      <li><strong>SDLC &amp; Agile/Scrum:</strong> Waterfall, Spiral, and Scrum ceremonies (Sprint planning, daily standup, sprint review/retro, DoD, product backlogs).</li>
+                      <li><strong>Requirements &amp; UML:</strong> IEEE 830 SRS authoring, Use Case diagrams, Class diagrams, Sequence diagrams, and Activity flows.</li>
+                      <li><strong>Architecture &amp; Design Patterns:</strong> SOLID principles, GoF patterns (Singleton, Factory, Observer, Strategy, Adapter, Facade), and microservices architectures.</li>
+                      <li><strong>Software Quality Assurance:</strong> White-box basis path testing, control flow graphs, cyclomatic complexity (V(G) = E - N + 2P), boundary value analysis, TDD, and CI/CD pipelines.</li>
+                      <li><strong>Estimation &amp; Risk:</strong> Function Point Analysis (FPA), COCOMO II cost estimation, PERT/CPM critical paths, and RMMM risk mitigation planning.</li>
+                    </ul>
+                  </div>
+                  <!-- Card 4.2: RMIPR (5th Sem Core Module) -->
+                  <div class="degree-subcard highlight-card">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <div class="card-module-tag">5TH SEM CORE MODULE</div>
+                    <h4 class="card-title">Research Methodology &amp; Intellectual Property Rights (RMIPR)</h4>
+                    <ul class="card-list">
+                      <li><strong>Scientific Research Formulation:</strong> Problem formulation, hypothesis testing, primary/secondary literature exploration, and experimental design.</li>
+                      <li><strong>Scholarly Publishing &amp; Ethics:</strong> Literature review synthesis across IEEE Xplore/ACM/Scopus, citation metrics (h-index, JIF), peer-review standards, and plagiarism avoidance.</li>
+                      <li><strong>Patent Law &amp; Claim Drafting:</strong> Statutory criteria (Novelty, Inventive Step / PHOSITA, Industrial Utility), Section 3 exclusions, provisional vs complete specifications, and independent/dependent claim drafting.</li>
+                      <li><strong>Copyrights &amp; Trade Secrets:</strong> Software source/object code copyright protection, fair dealing exceptions, trademark distinctiveness, and NDAs.</li>
+                      <li><strong>Commercialization:</strong> Academic technology transfer (TTOs), royalties, spin-offs, and open-source licensing compatibility (GPL, MIT, Apache).</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- SECTION: Pillar 5 — Intelligent Systems & Future Technical Directions -->
+              <section class="degree-curriculum-section">
+                <div class="pillar-header">
+                  <span class="pillar-badge">PILLAR 05</span>
+                  <h3 class="pillar-title">Intelligent Systems &amp; Future Technical Directions</h3>
+                  <p class="pillar-desc">
+                    Synthesizing theoretical artificial intelligence foundations with next-generation production machine learning, autonomous multi-agent systems, distributed cloud infrastructure, and quantitative financial engineering.
+                  </p>
+                </div>
+                <div class="degree-pillar-grid">
+                  <!-- Card 5.1: Artificial Intelligence (5th Sem Core Module) -->
+                  <div class="degree-subcard highlight-card">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <div class="card-module-tag">5TH SEM CORE MODULE</div>
+                    <h4 class="card-title">Artificial Intelligence (AI)</h4>
+                    <ul class="card-list">
+                      <li><strong>Intelligent Agents:</strong> Rational agent paradigms, PEAS classification, and environment properties (deterministic, stochastic, partially observable).</li>
+                      <li><strong>Heuristic Problem Solving:</strong> Uninformed search (BFS, DFS, IDDFS) and informed heuristic search: A* search (f(n) = g(n) + h(n)), admissibility, consistency, and IDA*.</li>
+                      <li><strong>Adversarial Search:</strong> Minimax game trees, Alpha-Beta pruning (O(b<sup>d/2</sup>) efficiency), quiescence search, and Constraint Satisfaction Problems (AC-3 arc consistency).</li>
+                      <li><strong>Logic &amp; Knowledge Representation:</strong> Propositional logic, First-Order Logic (FOL), unification, Skolemization, and resolution refutation theorem proving.</li>
+                      <li><strong>Reasoning Under Uncertainty:</strong> Conditional probability, Bayes' theorem, Bayesian Belief Networks (DAGs, conditional independence, d-separation), and variable elimination.</li>
+                    </ul>
+                  </div>
+                  <!-- Card 5.2: Future Focus — Machine Learning & LLMs -->
+                  <div class="degree-subcard">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                    </div>
+                    <div class="card-module-tag">FUTURE TECHNICAL FOCUS</div>
+                    <h4 class="card-title">Machine Learning, LLMs &amp; Autonomous Agents</h4>
+                    <ul class="card-list">
+                      <li><strong>Deep Learning &amp; Transformers:</strong> Multi-Head Attention mechanisms, RoPE embeddings, backpropagation calculus, and PyTorch deep neural architectures.</li>
+                      <li><strong>LLM Fine-Tuning &amp; Alignment:</strong> Pre-training BPE tokenizers, LoRA / QLoRA parameter-efficient fine-tuning, and Direct Preference Optimization (DPO).</li>
+                      <li><strong>Retrieval-Augmented Generation (RAG):</strong> High-dimensional vector embeddings, HNSW approximate nearest neighbor search, ChromaDB vector indexing, and cross-encoder re-ranking.</li>
+                      <li><strong>Autonomous Agent Loops:</strong> Cognitive ReAct (Reason + Act) loops, dynamic function/tool execution, episodic memory retrieval, and multi-agent coordination swarms.</li>
+                    </ul>
+                  </div>
+                  <!-- Card 5.3: Future Focus — Distributed Systems & Quantitative Finance -->
+                  <div class="degree-subcard">
+                    <div class="subcard-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <div class="card-module-tag">FUTURE TECHNICAL FOCUS</div>
+                    <h4 class="card-title">Distributed Systems &amp; Quantitative Finance</h4>
+                    <ul class="card-list">
+                      <li><strong>Distributed Consensus &amp; Scale:</strong> Raft leader election and log safety invariants, CAP theorem trade-offs, consistent hashing, and high-throughput Apache Kafka event streaming.</li>
+                      <li><strong>Cloud-Native Infrastructure:</strong> Linux kernel cgroups/namespaces, container runtimes (Docker), Kubernetes pod scheduling, and Istio service mesh observability.</li>
+                      <li><strong>Quantitative Finance Foundations:</strong> Stochastic calculus, geometric Brownian motion, It&ocirc;'s Lemma, and the Black-Scholes-Merton option pricing PDE.</li>
+                      <li><strong>Algorithmic Alpha &amp; AI:</strong> Statistical arbitrage cointegration, Markowitz efficient frontier portfolio optimization, order book microstructure, and financial LLM sentiment analysis.</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Institutional Anchor -->
+              <footer class="degree-institution-footer">
+                <div class="inst-info">
+                  <span class="inst-eyebrow">INSTITUTION &bull; RIGOR &bull; BUILDER ETHOS</span>
+                  <h4 class="inst-title">BMS Institute of Technology &amp; Management (BMSIT)</h4>
+                  <p class="inst-desc">
+                    Affiliated with Visvesvaraya Technological University (VTU Belagavi), Bangalore. Driven by continuous systems experimentation, deep mathematical rigor, hackathon wins, and autonomous AI engineering.
+                  </p>
+                </div>
+                <div class="inst-meta-tags">
+                  <span class="inst-badge">VTU Accredited</span>
+                  <span class="inst-badge">Active Systems Builder</span>
+                  <span class="inst-badge">Bangalore Tech Hub</span>
+                </div>
+              </footer>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════ WORK ═══════════════ -->
+    <section class="work-section" id="work" aria-label="Work Experience and Projects">
+      <div class="work-inner">
+        <header class="section-header work-header">
+          <h2 class="section-title">Work</h2>
+        </header>
+
+        <!-- Subsection: Featured Projects Showcase -->
+        <div class="work-projects-header">
+          <h3 class="work-sub-title">Technical Projects &amp; Repositories</h3>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: unycess-code-red -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-card-top">
+                <span class="project-num">01</span>
+                <span class="project-category">AI / Enterprise RAG</span>
+              </div>
+              <h4 class="project-title">DSLM Platform — Domain-Specific Language Models</h4>
+            </div>
+            <p class="project-desc">
+              Enterprise-grade, privacy-first platform engineered for domain-specific document ingestion, hybrid neural-keyword retrieval, and local-first Retrieval-Augmented Generation (RAG). Built to safeguard high-stakes, regulated data in Healthcare, Legal, Finance, and Manufacturing with automated PII masking, local GPU execution, and sub-second semantic search.
+            </p>
+            <div class="project-tech-stack" aria-label="Technologies used">
+              <span class="tech-chip">Python 3.11</span>
+              <span class="tech-chip">FastAPI</span>
+              <span class="tech-chip">TypeScript</span>
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">Qdrant</span>
+              <span class="tech-chip">Neo4j</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">Redis</span>
+              <span class="tech-chip">Apache Kafka</span>
+              <span class="tech-chip">Presidio</span>
+              <span class="tech-chip">Docker</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/VINYASGM/unycess-code-red" class="project-btn" target="_blank" rel="noopener noreferrer" aria-label="View DSLM Platform repository on GitHub">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: SDO -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-card-top">
+                <span class="project-num">02</span>
+                <span class="project-category">High-Throughput Systems</span>
+              </div>
+              <h4 class="project-title">Chronos — Speculative Decoding Orchestration Platform</h4>
+            </div>
+            <p class="project-desc">
+              Hardware-aware, distributed Speculative Decoding Orchestration (SDO) engine that accelerates large language model (LLM) inference throughput by 2–3x. Couples a high-concurrency Go control plane with a low-latency Rust Tokio data plane to dynamically optimize the draft-verification pipeline using Thompson Sampling multi-armed bandits.
+            </p>
+            <div class="project-tech-stack" aria-label="Technologies used">
+              <span class="tech-chip">Rust (Tokio)</span>
+              <span class="tech-chip">Tonic gRPC</span>
+              <span class="tech-chip">memmap2</span>
+              <span class="tech-chip">Go (Gin)</span>
+              <span class="tech-chip">Python (SGLang)</span>
+              <span class="tech-chip">vLLM</span>
+              <span class="tech-chip">PyTorch</span>
+              <span class="tech-chip">OpenTelemetry</span>
+              <span class="tech-chip">Prometheus</span>
+              <span class="tech-chip">Kubernetes</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/VINYASGM/SDO" class="project-btn" target="_blank" rel="noopener noreferrer" aria-label="View Chronos SDO repository on GitHub">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: UACP -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-card-top">
+                <span class="project-num">03</span>
+                <span class="project-category">Agent Infrastructure</span>
+              </div>
+              <h4 class="project-title">UACP — Universal Agent Control Plane</h4>
+            </div>
+            <p class="project-desc">
+              Production-grade "Operating System for Agentic AI Workloads." Provides a centralized, resilient control plane for orchestrating multi-LLM routing, semantic response caching, policy-based governance, and real-time tool execution across distributed autonomous agents.
+            </p>
+            <div class="project-tech-stack" aria-label="Technologies used">
+              <span class="tech-chip">Go 1.23 (Gin)</span>
+              <span class="tech-chip">pgx/v5</span>
+              <span class="tech-chip">Python SDK</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">pgvector</span>
+              <span class="tech-chip">Semantic LRU</span>
+              <span class="tech-chip">Policy Engine</span>
+              <span class="tech-chip">Docker</span>
+              <span class="tech-chip">Kubernetes</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/VINYASGM/UACP" class="project-btn" target="_blank" rel="noopener noreferrer" aria-label="View UACP repository on GitHub">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: AXIOM -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-card-top">
+                <span class="project-num">04</span>
+                <span class="project-category">Formal Verification &amp; AI</span>
+              </div>
+              <h4 class="project-title">AXIOM — Autonomous eXecution with Intent-Oriented Modeling</h4>
+            </div>
+            <p class="project-desc">
+              Enterprise semantic development environment and polyglot autonomous execution platform where human developers formulate verified intent, while AI agents iteratively synthesize, formally prove, and maintain implementations. Integrates a Next.js 14 frontend, a high-throughput Go API gateway, a Python AI intent microservice, and a low-latency Rust formal verification engine powered by the Z3 SMT solver and Wasmtime sandboxed WebAssembly runtime.
+            </p>
+            <div class="project-tech-stack" aria-label="Technologies used">
+              <span class="tech-chip">Next.js 14</span>
+              <span class="tech-chip">TypeScript</span>
+              <span class="tech-chip">Go 1.22 (Gin)</span>
+              <span class="tech-chip">Python 3.12</span>
+              <span class="tech-chip">Rust (Tokio)</span>
+              <span class="tech-chip">Z3 SMT Solver</span>
+              <span class="tech-chip">Wasmtime</span>
+              <span class="tech-chip">Tree-sitter</span>
+              <span class="tech-chip">PostgreSQL 16</span>
+              <span class="tech-chip">Redis 7</span>
+              <span class="tech-chip">Qdrant</span>
+              <span class="tech-chip">Turborepo</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/VINYASGM/AXIOM" class="project-btn" target="_blank" rel="noopener noreferrer" aria-label="View AXIOM repository on GitHub">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: SIH_ROUND3 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-card-top">
+                <span class="project-num">05</span>
+                <span class="project-category">Hackathon Grand Finale</span>
+              </div>
+              <h4 class="project-title">SIH_ROUND3 — Smart India Hackathon Grand Finale Prototype</h4>
+            </div>
+            <p class="project-desc">
+               3 /lead as a team Lead addressing national-scale technological challenges through end-to-end telemetry ingestion, computer vision analytics, intelligent decision workflows, and robust real-time microservices Sovereign AI Execution Plane & Industrial Workbench (SMITRACE) is an enterprise-grade AI system built specifically for regulated industrial environments. It enables engineering and operations personnel to parse high-resolution engineering prints (P&IDs), process inspection logs, run ASME/API code calculations, and synthesize official PSU approval notes without exposing confidential enterprise payloads to external cloud datacenters.
+            </p>
+            <div class="project-tech-stack" aria-label="Technologies used">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">FastAPI</span>
+              <span class="tech-chip">OpenCV</span>
+              <span class="tech-chip">PyTorch</span>
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">TypeScript</span>
+              <span class="tech-chip">Tailwind CSS</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">Docker</span>
+              <span class="tech-chip">IoT Telemetry</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/BhargavaAithal/SIH_ROUND3" class="project-btn" target="_blank" rel="noopener noreferrer" aria-label="View SIH Round 3 repository on GitHub">
+                <span>View Repository</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ DETAILS ═══════════════ -->
+    <section class="details-section" id="details" aria-label="Details and Contact">
+      <div class="details-inner">
+        <header class="section-header">
+          <h2 class="section-title">Details</h2>
+        </header>
+
+        <div class="details-grid">
+          <!-- Card 1: LinkedIn -->
+          <article class="detail-card">
+            <div class="detail-card-header">
+              <div class="detail-card-top">
+                <span class="detail-channel-tag">Professional Network</span>
+                <span class="detail-platform-badge">LinkedIn</span>
+              </div>
+              <h3 class="detail-title">LinkedIn</h3>
+              <p class="detail-handle">www.linkedin.com/in/vinyasgm</p>
+            </div>
+            <p class="detail-desc">
+              Connect for professional networking, industry collaborations, dual-degree updates, and technology strategy discussions.
+            </p>
+            <div class="detail-card-footer">
+              <a href="https://www.linkedin.com/in/vinyasgm" class="detail-btn" target="_blank" rel="noopener noreferrer" aria-label="Connect with Vinyas G M on LinkedIn">
+                <span>Connect on LinkedIn</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: GitHub -->
+          <article class="detail-card">
+            <div class="detail-card-header">
+              <div class="detail-card-top">
+                <span class="detail-channel-tag">Code &amp; Systems</span>
+                <span class="detail-platform-badge">GitHub</span>
+              </div>
+              <h3 class="detail-title">GitHub</h3>
+              <p class="detail-handle">github.com/VINYASGM</p>
+            </div>
+            <p class="detail-desc">
+              Explore open-source systems engineering, LLM orchestration platforms (SDO, UACP, AXIOM), and code repositories.
+            </p>
+            <div class="detail-card-footer">
+              <a href="https://github.com/VINYASGM" class="detail-btn" target="_blank" rel="noopener noreferrer" aria-label="View Vinyas G M GitHub profile">
+                <span>Explore GitHub</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: Gmail -->
+          <article class="detail-card">
+            <div class="detail-card-header">
+              <div class="detail-card-top">
+                <span class="detail-channel-tag">Direct Inquiries</span>
+                <span class="detail-platform-badge">Gmail</span>
+              </div>
+              <h3 class="detail-title">Gmail</h3>
+              <p class="detail-handle">vinyas.devarmane5@gmail.com</p>
+            </div>
+            <p class="detail-desc">
+              Direct communication channel for internship opportunities, systems engineering discussions, collaborative research, or venture initiatives.
+            </p>
+            <div class="detail-card-footer">
+              <a href="mailto:vinyas.devarmane5@gmail.com" class="detail-btn" aria-label="Send email to vinyas.devarmane5@gmail.com">
+                <span>Send Email</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: Official Resume Placeholder -->
+          <article class="detail-card detail-card--resume">
+            <div class="detail-card-header">
+              <div class="detail-card-top">
+                <span class="detail-channel-tag">Curriculum Vitae</span>
+                <span class="detail-platform-badge detail-badge--resume">Official Document</span>
+              </div>
+              <h3 class="detail-title">Official Resume</h3>
+              <p class="detail-handle">PDF Document • Ready for Review</p>
+            </div>
+            <p class="detail-desc">
+              Synthesized single-page curriculum vitae covering dual undergraduate coursework (B.E. CSE + IIMB BBA DBE), systems engineering projects, and technical competencies.
+            </p>
+            <div class="detail-card-footer">
+              <a href="assets/resume.pdf" class="detail-btn detail-btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View or download Official Resume PDF">
+                <span>View / Download Resume</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Site Colophon Footer -->
+        <footer class="details-footer">
+          <p class="footer-meta">
+            <span class="footer-author">Vinyas G M</span>
+            <span class="footer-dot" aria-hidden="true">•</span>
+            <span class="footer-degrees">B.E. CSE (BMSIT) + BBA DBE (IIM Bangalore)</span>
+            <span class="footer-dot" aria-hidden="true">•</span>
+            <span class="footer-year">&copy; 2026</span>
+          </p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Scroll Observer for Card Pop-Up -->
+  <script>
+    (function () {
+      document.documentElement.classList.add('has-js');
+      const cardWrapper = document.getElementById('about-card-wrapper');
+      if (!cardWrapper) return;
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            cardWrapper.classList.add('is-popped');
+          } else {
+            // When user scrolls back up into Hero, reset so it pops up again on scroll down
+            if (entry.boundingClientRect.top > 0) {
+              cardWrapper.classList.remove('is-popped');
+            }
+          }
+        });
+      }, { threshold: 0.15 });
+
+      observer.observe(cardWrapper);
+    })();
+  </script>
+
+  <!-- Degree Card 3D Flip & Expansion Controller -->
+  <script>
+    (function () {
+      'use strict';
+
+      const trigger = document.getElementById('cs-degree-card-trigger') || document.querySelector('[data-degree-trigger="cse"]');
+      const overlay = document.getElementById('degree-modal') || document.getElementById('cs-degree-modal-overlay');
+      const flipper = document.getElementById('cs-degree-modal-flipper');
+      const closeBtn = document.getElementById('cs-degree-modal-close') || (overlay ? overlay.querySelector('[data-close-degree]') : null);
+
+      if (!trigger || !overlay || !closeBtn) return;
+
+      let lastActiveElement = null;
+      let isPointerDownInsideCard = false;
+
+      // Calculate and compensate scrollbar layout shift on Windows
+      function lockScroll() {
+        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+        document.documentElement.style.setProperty('--scrollbar-compensation', `${scrollbarWidth}px`);
+        document.documentElement.classList.add('modal-is-open');
+        document.body.classList.add('modal-is-open');
+      }
+
+      function unlockScroll() {
+        document.documentElement.classList.remove('modal-is-open');
+        document.body.classList.remove('modal-is-open');
+        document.documentElement.style.removeProperty('--scrollbar-compensation');
+      }
+
+      function openModal() {
+        lastActiveElement = document.activeElement;
+        lockScroll();
+
+        overlay.classList.add('is-active');
+        if (flipper) flipper.classList.add('is-flipped');
+        overlay.setAttribute('aria-hidden', 'false');
+        trigger.setAttribute('aria-expanded', 'true');
+
+        setTimeout(() => {
+          closeBtn.focus();
+        }, 80);
+      }
+
+      function closeModal() {
+        overlay.classList.remove('is-active');
+        if (flipper) flipper.classList.remove('is-flipped');
+        overlay.setAttribute('aria-hidden', 'true');
+        trigger.setAttribute('aria-expanded', 'false');
+
+        unlockScroll();
+
+        // Restore focus to trigger card
+        if (lastActiveElement && typeof lastActiveElement.focus === 'function') {
+          lastActiveElement.focus();
+        } else {
+          trigger.focus();
+        }
+      }
+
+      // 1. Opening Triggers: Click and Enter/Space on CS degree card
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModal();
+      });
+
+      trigger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openModal();
+        }
+      });
+
+      // 2. Return Button Trigger
+      overlay.querySelectorAll('[data-close-degree]').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          closeModal();
+        });
+      });
+
+      // 3. Outside Click (Backdrop) Trigger with Drag Safeguard
+      if (flipper) {
+        flipper.addEventListener('pointerdown', () => {
+          isPointerDownInsideCard = true;
+        });
+      }
+
+      overlay.addEventListener('pointerdown', (e) => {
+        if (e.target === overlay) {
+          isPointerDownInsideCard = false;
+        }
+      });
+
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay && !isPointerDownInsideCard) {
+          closeModal();
+        }
+        isPointerDownInsideCard = false;
+      });
+
+      // 4. Keyboard Escape and Focus Trap
+      document.addEventListener('keydown', (e) => {
+        if (!overlay.classList.contains('is-active')) return;
+
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeModal();
+          return;
+        }
+
+        // Focus Trap
+        if (e.key === 'Tab') {
+          const focusableSelectors = [
+            'button:not([disabled])',
+            '[href]',
+            'input:not([disabled])',
+            'select:not([disabled])',
+            'textarea:not([disabled])',
+            '[tabindex]:not([tabindex="-1"])'
+          ];
+          const focusables = overlay.querySelectorAll(focusableSelectors.join(', '));
+          if (!focusables.length) return;
+
+          const firstFocusable = focusables[0];
+          const lastFocusable = focusables[focusables.length - 1];
+
+          if (e.shiftKey) {
+            if (document.activeElement === firstFocusable) {
+              e.preventDefault();
+              lastFocusable.focus();
+            }
+          } else {
+            if (document.activeElement === lastFocusable) {
+              e.preventDefault();
+              firstFocusable.focus();
+            }
+          }
+        }
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
