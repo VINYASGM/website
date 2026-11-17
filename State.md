@@ -1,6 +1,6 @@
 # Current State
 
-- **Current Status:** Git repository initialized and configured with initial commit. Ready for GitHub Desktop importing and remote publishing.
+- **Current Status:** Repository successfully opened in GitHub Desktop. Pending publish to GitHub remote.
 - **Current Branch:** `main`.
 - **Files Tracked:**
   - `index.html` (Portfolio website markup)
@@ -8,5 +8,6 @@
   - `photo.png` (Portrait / portfolio image)
   - `.gitignore` (Ignore file for OS / editor cache)
   - Documentation suite (`PRD.md`, `TRD.md`, `Architecture.md`, `ToDo.md`, `State.md`, `context.md`)
-- **Remote:** Not yet connected (pending publish via GitHub Desktop).
-- **Next Action:** Add repository in GitHub Desktop application and push to GitHub.
+- **Untracked / Temporary:**
+  - `mywebsite/` (Accidental nested repo created during GitHub Desktop setup; needs removal)
+- **Next Action:** Discard `mywebsite` and click "Publish repository" at top of GitHub Desktop.

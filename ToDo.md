@@ -5,8 +5,9 @@
 - [x] Add standard `.gitignore` file.
 - [x] Initialize Git repository (`git init -b main`).
 - [x] Create initial commit containing all existing site files and documentation.
-- [ ] Open GitHub Desktop and select **File > Add Local Repository** pointing to this folder.
-- [ ] Click **Publish repository** to create and push to GitHub.
+- [x] Add local repository into GitHub Desktop (`website`).
+- [ ] Discard / remove accidental nested `mywebsite` folder.
+- [ ] Click **Publish repository** in GitHub Desktop to push to GitHub.
 
 ## Phase 2: Live Deployment
 - [ ] Enable GitHub Pages in repository settings (Deploy from branch: `main`, `/root`).
