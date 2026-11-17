@@ -7,7 +7,7 @@
 - [x] Create initial commit containing all existing site files and documentation.
 - [x] Add local repository into GitHub Desktop (`website`).
 - [x] Discard / remove accidental nested `mywebsite` folder.
-- [ ] Click **Publish repository** in GitHub Desktop to push to GitHub.
+- [x] Click **Publish repository** in GitHub Desktop to push to GitHub (Published to `https://github.com/VINYASGM/website.git`).
 
 ## Phase 2: Live Deployment
 - [ ] Enable GitHub Pages in repository settings (Deploy from branch: `main`, `/root`).
