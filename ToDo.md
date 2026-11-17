@@ -6,7 +6,7 @@
 - [x] Initialize Git repository (`git init -b main`).
 - [x] Create initial commit containing all existing site files and documentation.
 - [x] Add local repository into GitHub Desktop (`website`).
-- [ ] Discard / remove accidental nested `mywebsite` folder.
+- [x] Discard / remove accidental nested `mywebsite` folder.
 - [ ] Click **Publish repository** in GitHub Desktop to push to GitHub.
 
 ## Phase 2: Live Deployment

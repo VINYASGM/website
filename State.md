@@ -1,6 +1,6 @@
 # Current State
 
-- **Current Status:** Repository successfully opened in GitHub Desktop. Pending publish to GitHub remote.
+- **Current Status:** Repository clean and ready. User is on the "Publish your repository to GitHub" screen in GitHub Desktop.
 - **Current Branch:** `main`.
 - **Files Tracked:**
   - `index.html` (Portfolio website markup)
@@ -8,6 +8,5 @@
   - `photo.png` (Portrait / portfolio image)
   - `.gitignore` (Ignore file for OS / editor cache)
   - Documentation suite (`PRD.md`, `TRD.md`, `Architecture.md`, `ToDo.md`, `State.md`, `context.md`)
-- **Untracked / Temporary:**
-  - `mywebsite/` (Accidental nested repo created during GitHub Desktop setup; needs removal)
-- **Next Action:** Discard `mywebsite` and click "Publish repository" at top of GitHub Desktop.
+- **Untracked / Temporary:** None (clean working tree).
+- **Next Action:** Click the blue "Publish repository" button in GitHub Desktop.
